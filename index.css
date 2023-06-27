@@ -1,3 +1,6 @@
+/* Reset do Estilo */
+/*  */
+
 *{
     padding: 0;
     margin: 0;
@@ -6,11 +9,15 @@
     box-sizing: border-box;
 }
 
+/* Regra geral do body */
+
 body{
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
-    color: Blue;
+    color: white;
 }
+
+/* Barra de navegação */
 
 nav{
     background-color: white;
@@ -26,7 +33,7 @@ label.logo{
     font-weight: bold;
 }
 
-nav ul{
+ul{
     float: right;
     margin-right: 25px;
 }
@@ -37,32 +44,20 @@ nav ul li{
     margin: 0 5px;
 }
 
-nav ul li a{
+.nav-link{
     color: black;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
+    text-decoration: none;
+    line-height: 25px;
 }
 
-a.active,a:hover{
+.nav-link:hover{
     background: black;
     color: white;
-    transition: .7s;
-}
-
-.checkbtn{
-    font-size: 30px;
-    color: black;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-
-#check{
-    display: none;
+    transition: .5s;
 }
 
 @media (max-width: 952px){
@@ -76,9 +71,6 @@ a.active,a:hover{
 }
 
 @media (max-width: 858px){
-    .checkbtn{
-        display: block;
-    }
     ul{
         position: fixed;
         width: 100%;
@@ -91,14 +83,11 @@ a.active,a:hover{
     nav ul li{
         display: block;
     }
-    nav ul li a{
+    .nav-link{
         font-size: 20px;
     }
-    a:hover,a.active{
+    a:hover{
         background: none;
         color: black;
-    }
-    #check:chekced ~ ul{
-        left: 0;
     }
 }

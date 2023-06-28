@@ -17,6 +17,11 @@ body{
     color: white;
 }
 
+img{
+    max-width: 100%;
+    display: block;
+}
+
 /* Barra de navegação */
 
 nav{
@@ -90,4 +95,40 @@ nav ul li{
         background: none;
         color: black;
     }
+}
+
+/* Sobre mim page */
+
+.bemvindo{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 33%;
+    margin: 0 auto;
+    
+}
+
+#bemvindo{
+    margin-top: 200px;
+}
+
+#conteudosobre{
+    max-width: 800px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+/* Projetos */
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 33%;
+}
+.flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+    text-align: center;
 }

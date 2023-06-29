@@ -101,9 +101,10 @@ nav ul li{
 
 .bemvindo{
     text-align: center;
-    margin-top: 150px;
-    margin-bottom: 33%;
+    margin-bottom: 50%;
     margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 300px;
     
 }
 
@@ -125,10 +126,25 @@ nav ul li{
     max-width: 800px;
     margin: 0 auto;
     margin-top: 150px;
-    margin-bottom: 33%;
+    margin-bottom: 20%;
 }
 .flex > div{
     flex: 1 1 200px;
     margin: 10px;
+    text-align: center;
+}
+
+/* Contato */
+
+.flex2{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 350px;
+}
+.flex2 > div{
+    flex: 1 1 200px;
+    margin: 20px;
     text-align: center;
 }

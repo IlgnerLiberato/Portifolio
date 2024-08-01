@@ -26,7 +26,7 @@ img{
 
 nav{
     background-color: white;
-    height: 80px;
+    height: 70px;
     width: 100%;
 }
 
@@ -34,7 +34,7 @@ label.logo{
     color: black;
     font-size: 35px;
     line-height: 80px;
-    padding: 0 100px;
+    padding: 50px 100px;
     font-weight: bold;
 }
 
@@ -52,7 +52,7 @@ nav ul li{
 .nav-link{
     color: black;
     font-size: 17px;
-    padding: 7px 13px;
+    padding: 10px 15px;
     border-radius: 3px;
     text-transform: uppercase;
     text-decoration: none;

@@ -155,11 +155,11 @@ nav ul li{
     position: fixed;
     bottom: 50px;
     right: 20px;
-    /* display: none; /* Oculta o botão por padrão */
+    display: none; /* Oculta o botão por padrão */
     background-color: white;
     color: black;
     border: none;
-    border-radius: 5%;
+    border-radius: 50%;
     padding: 10px;
     cursor: pointer;
     font-size: 18px;
